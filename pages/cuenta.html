@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Cuenta</title>
+</head>
+
+<body>
+    <header>
+        <!-- Logo -->
+        <img src="../assets/Daco_4793148.png" alt="logo" class="logo">
+        <!-- Menú -->
+        <input class="menu-checkbox" type="checkbox" name="toggle-nav" id="toggle-nav">
+        <label class="bars-container" for="toggle-nav">
+            <i class="fa-solid fa-bars" id="toggle-nav"></i>
+        </label>
+        <nav class="navbar">
+            <a href="../index.html">Inicio</a>
+            <a href="../index.html#productos">Productos</a>
+            <a href="./cuenta.html">Cuenta</a>
+            <a href="">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="form-container">
+            <form action="#">
+                <label for="name">Ingresa tu Nombre
+                    <input type="text">
+                </label>
+
+                <label for="password">Ingrsa tu contraseña
+                    <input type="password">
+                </label>
+
+                <label for="email">Ingrsa tu Email
+                    <input type="email" name="email" id="email" placeholder="ejemplo@gmail.com">
+                </label>
+
+                <label for="keep-data">Mantener sesión abierta
+                    <input class="form-check" type="checkbox" name="keep-data" id="keep-data">
+                </label>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer-fix">
+        <div class="footer-links">
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
